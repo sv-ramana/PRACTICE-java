@@ -1,0 +1,17 @@
+class Idcard1
+{
+	static String idcardname="qspider";
+	static long officecontant=123456789L;
+	public static void swipecard()
+	{
+		System.out.println("add attendence for one days");
+	}
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		System.out.println("id card naem="+idcard.idcardname);
+		System.out.println("office contant="+idcard.officecontant);
+		idcard.swipecard();
+		System.out.println("main method ended");
+	}
+}

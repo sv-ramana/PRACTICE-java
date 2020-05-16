@@ -1,0 +1,18 @@
+class Demo1
+{
+	double b=4.5;
+	System.out.println("executed reference variable two times");
+}
+class Program2
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		Demo1 result=new Demo1();
+		System.out.println("result="+result.b);
+		Demo1 result1=new Demo1();
+		result1.b=5.5;
+		System.out.println("result1="+result1.b);
+		System.out.println("main method ended");
+     }
+}

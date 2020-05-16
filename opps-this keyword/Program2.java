@@ -1,0 +1,22 @@
+class notebook
+{
+	int noofpages;
+	notebook(int numberofpages)
+	{
+		this.noofpages=numberofpages;
+		System.out.println("executing job");
+		System.out.println("this="+this);
+	}
+}
+class Program2
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		notebook n1=new notebook(20);
+		System.out.println("no of pages="+n1.noofpages);
+		notebook n2=new notebook(30);
+		System.out.println("no of pages="+n2.noofpages);
+		System.out.println("main method ended");
+	}	
+}
