@@ -1,0 +1,45 @@
+class paymentapp
+{
+	public void paymentapp()
+	{
+		System.out.println("paYment done");
+	}
+}
+class googlepay extends paymentapp
+{
+	public void googlepay()
+	{
+		System.out.println("25000 sent through google pay");
+	}
+}
+class phonepay extends paymentapp
+{
+	public void phonepay()
+	{
+		System.out.println("25000 sent through phonepay");
+	}
+}
+class paytmpay extends paymentapp
+{
+	public void paytmpay()
+	{
+		System.out.println("25000 sent through patym");
+	}
+}
+class Program3
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		paytmpay p4=new paytmpay();
+		p4.paytmpay();
+		p4.paymentapp();
+		phonepay p3=new phonepay();
+		p3.phonepay();
+		p3.paymentapp();
+		googlepay p2=new googlepay();
+		p2.googlepay();
+		p2.paymentapp();
+		System.out.println("main method ended");
+	}
+}
