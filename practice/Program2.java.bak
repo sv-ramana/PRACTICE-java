@@ -1,0 +1,22 @@
+class Program2
+{
+	 int a=10;
+	 static int b=11;
+	public void test1() 
+	{
+		System.out.println("test1 executed");
+	}
+	public static void test2(int d)
+	{
+		System.out.println("test 2 started");
+	}
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		test2(33);
+		new Program2().test1();
+		System.out.println("a="+new Program2().a);
+		System.out.println("b="+new Program2().b);
+		System.out.println("main method ended");
+	}
+}

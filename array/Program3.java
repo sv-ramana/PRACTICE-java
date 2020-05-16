@@ -1,0 +1,12 @@
+class Program3
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		double []b=(2.3 3.4 1.5 6.7);
+		for(int i=0;i<b.length;i++)
+		{
+			System.out.println(b[i]);
+		}
+	}
+}

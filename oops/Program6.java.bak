@@ -1,0 +1,18 @@
+class sample
+{
+	char ch='w';
+	public void test(String s1)
+	{
+		System.out.println("test method executed");
+	}
+}
+class Program6
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		System.out.println("ch="+new sample().ch);
+		new sample().test("it is non static program small different");
+		System.out.println("main method emded");
+	}
+}

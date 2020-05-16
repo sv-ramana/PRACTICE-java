@@ -1,0 +1,19 @@
+class  Program7
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main method started");
+		int count=0;
+		for(int i=1; i<=5 ; i++)
+		{
+			System.out.println("i is printed");
+			count++;
+			System.out.println(count);	
+			for(int j=0;j<=3;j++)
+			{
+				System.out.println("j is printed");
+				System.out.println(j);
+			}
+		}	
+	}
+}

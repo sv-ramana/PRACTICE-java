@@ -1,0 +1,12 @@
+class Program2
+{
+	int []a;
+	a=new int a[3];
+	a[0]=22;
+	a[1]=33;
+	a[2]=44;
+	for(int index=0;index<a.length;index++)
+	{
+		System.out.println(a[index]);
+	}
+}
