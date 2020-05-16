@@ -1,0 +1,11 @@
+class Program4
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		long a;
+		a=12345678123L;
+		System.out.println(a);
+		System.out.println("main method ended");
+	}
+}

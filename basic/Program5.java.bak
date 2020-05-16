@@ -1,0 +1,10 @@
+class Program5
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		char ch=A;
+		System.out.println(ch);
+		System.out.println("main method ended");
+	}
+}
