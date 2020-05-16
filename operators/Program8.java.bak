@@ -1,0 +1,10 @@
+class Program8
+{
+	public static void main(String []args)
+	{
+		int a=1;
+		float b=0.1f;
+        float result=a-b;
+		System.out.println("result="+result);
+	}
+}

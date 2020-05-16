@@ -1,0 +1,10 @@
+class  Program7
+{
+	public static void main(String []args)
+	{
+		long a=6;
+		short b=0;
+		long result=a-b;
+		System.out.println(result);
+	}
+}
