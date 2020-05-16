@@ -1,0 +1,16 @@
+class Program22
+{
+	public static void main(String []args)
+	{
+		System.out.println("main method started");
+		int a=0;
+		do
+		{
+			System.out.println("output is 5");
+		}
+		while (a++<4);
+		{
+			System.out.println("main method ended");
+		}
+}
+}
