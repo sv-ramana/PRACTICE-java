@@ -1,0 +1,30 @@
+class sample1
+{
+	public void function1(String s1);
+	{
+		System.out.println("function 1 method");
+	}
+	public void function2(String s2);
+	{
+		System.out.println("function 2 method");
+	}
+	public void function3(String s3);
+	{
+		System.out.println("functiom 3 methlod");
+	}
+}
+class Program7
+{
+	public static void main(String []args)
+	{
+.		System.out.println("main method started");
+		String s1="ven";
+		String s2="ven2";
+		String s3="ven3";
+		sample1 s=new sample1();
+		s.function1(s1);
+		s.function2(s2);
+		s.function3(s3);
+		System.out.println("main method emded");
+	}
+}
